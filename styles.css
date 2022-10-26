@@ -9,6 +9,8 @@
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7),url(images/banner.png));
     background-color: rgba(4,9,30,0.7);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7),url("https://images.freeimages.com/images/large-previews/01a/technology-background-1632715.jpg"));
+    background-position: center;
     background-size: cover;
     position: relative;
 }
