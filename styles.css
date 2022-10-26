@@ -9,7 +9,6 @@
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7),url(images/banner.png));
     background-color: rgba(4,9,30,0.7);
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7),url("https://images.freeimages.com/images/large-previews/01a/technology-background-1632715.jpg"));
     background-position: center;
     background-size: cover;
     position: relative;
@@ -89,3 +88,44 @@ nav img{
     position: relative;
     cursor: pointer;
 }
+
+.hero-btn:hover{
+    border: 1px solid #34deeb;
+    background: #34deeb;
+    transition: 1s;
+}
+
+nav .fa{
+    display: none;
+}
+
+@media(max-width: 700px){
+    .text-box h1 {
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        background: #34deeb;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+}
+
