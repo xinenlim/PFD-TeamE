@@ -96,6 +96,7 @@ nav .fa {
 h1 {
     font-size: 36px;
     font-weight: 600;
+    color: #fff;
 }
 
 .contact-col input, .contact-col textarea {
@@ -106,3 +107,4 @@ h1 {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
