@@ -6,8 +6,31 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7),url(https://cdn.discordapp.com/attachments/851414355215515679/1034627354523353228/unknown.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7),url("https://img.freepik.com/free-vector/japanese-wave-line-art-landscape-background-abstract-mountain-banner-design-pattern-vector-illustration-geometric-poster_90220-715.jpg?w=900&t=st=1666745934~exp=1666746534~hmac=dce2e89b89281b2f5228f98b6c31c07b723cfa1c7164f16757be10040e1248cb");
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px;
     position: relative;
 }
